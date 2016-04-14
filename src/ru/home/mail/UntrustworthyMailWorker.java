@@ -13,9 +13,9 @@ public class UntrustworthyMailWorker implements MailService {
         this.mail = mail;
     }
 
-    public RealMailService getRealMailService (){
+    /*public RealMailService getRealMailService (){
         return this.processMail(mail);
-    }
+    }*/
 
     @Override
     public Sendable processMail(Sendable mail) {
